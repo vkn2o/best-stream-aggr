@@ -1,0 +1,20 @@
+# Python
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local database — real playback reports and search history, not source
+backend/app.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+
+# OS
+Thumbs.db
+.DS_Store

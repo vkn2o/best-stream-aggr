@@ -1,0 +1,9 @@
+Flask==3.0.3
+pytest==8.3.3
+requests==2.32.3
+flask-cors==5.0.0
+# Task S3 (per-title availability probe). Optional at runtime: the probe
+# degrades to "unknown" if this or its browser binary is missing, and the
+# test suite never launches a browser. Needs `python -m playwright install
+# chromium` (~88MB) as a separate step after pip install.
+playwright==1.49.0
